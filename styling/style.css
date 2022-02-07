@@ -1,0 +1,139 @@
+/*header*/
+#head {
+    color: inherit;
+    text-decoration: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    padding: 20px;
+}
+#header {
+    background-color: rgb(16, 169, 180);
+}
+#opt{
+    padding: 22px;
+    margin: 0px;
+}
+#opt:hover{
+    background: rgb(3, 115, 167);
+}
+/*introduction*/
+#intro{
+    background-image: url(img/football.jpg);
+    min-height: 100vh;
+    background-size: cover;
+}
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    padding: 25px;
+    background-color: white;
+    opacity: 0.6;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#info{
+    text-align: center;
+}
+/*end introduction*/
+/*table*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 5px 30px 5px 30px;
+  }
+  
+  tr:nth-child(even){background-color: #f2f2f2}
+  
+  th {
+    background-color: #3ad0e4;
+    color: white;
+  }
+  #tdata:hover
+  {
+      background-color: rgb(86, 131, 120);
+      color: white;
+  }
+  
+  tr:nth-child(even) {background-color: #f2f2f2;}
+  #tBut{
+    background-color: #3ad0e4;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    font-weight: bold;
+    font-size: medium;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #tBut:hover{
+    background-color: rgb(234, 248, 245);
+    color: rgb(3, 3, 3);
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    font-size: medium;
+    transform: translate(-50%, -50%);
+ }
+ #res{
+    background-color: #0a3d77;
+    color: white;
+ }
+ #res:hover{
+    background-color: #7ea7d4;
+    color: rgb(3, 3, 3);
+ }
+/*end of table*/
+/*form*/
+input[type=text] {
+    padding:10px;
+    margin: 5px;
+    border:0;
+    box-shadow:0 0 20px 10px rgba(0, 0, 0, 0.06);
+    border-radius:10px;
+}
+#formBut {
+    padding:10px;
+    margin: 15px;
+    border:0;
+    box-shadow:0 0 20px 10px rgba(0, 0, 0, 0.06);
+    border-radius:10px;
+    background-color: #3ad0e4;
+}
+#formBut:hover {
+    padding:10px;
+    margin: 15px;
+    border:0;
+    box-shadow:0 0 20px 10px rgba(0, 0, 0, 0.06);
+    border-radius:10px;
+    background-color: #249bad;
+    color: white;
+}
+/*end form*/
+/*footer*/
+#footer{
+    background-color: rgb(11, 218, 28);
+    color: rgb(61, 58, 58);
+    padding: 15px;
+}
+#foot{
+    color: inherit;
+    text-decoration: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#foot:hover{
+    text-decoration: underline;
+}
